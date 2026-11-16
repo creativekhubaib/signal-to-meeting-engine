@@ -1,0 +1,260 @@
+name,website,size,country,source,name_clean,domain
+Legora,https://www.legora.com/,501-1000,Sweden,kaggle_yc_dataset,Legora,legora.com
+Dover,https://dover.com,11-50,USA,yc_public_directory_mirror,Dover,dover.com
+Belkins,https://belkins.io/,201-500,United States,outbound_agency_directory,Belkins,belkins.io
+Morphik,morphik.ai,2-10,USA,kaggle_yc_dataset,Morphik,morphik.ai
+ColdIQ,https://www.coldiq.com/,11-50,Switzerland,outbound_agency_directory,ColdIQ,coldiq.com
+Adside.ai,HTTPS://ADSIDE.AI/,2-10,USA,yc_public_directory_mirror,Adside.ai,adside.ai
+Polytomic,https://www.polytomic.com/,2-10,USA,yc_public_directory_mirror,Polytomic,polytomic.com
+Dimely,https://dimely.com/,2-10,USA,kaggle_yc_dataset,Dimely,dimely.com
+Leads4Contact,http://leads4contact.com/,2-10,Pakistan,scaliq_directory,Leads4Contact,leads4contact.com
+ValCtrl,https://valctrl.com,2-10,USA,yc_public_directory_mirror,ValCtrl,valctrl.com
+10Pearls,https://10pearls.com/,1001-5000,United States,pseb_public_directory,10Pearls,10pearls.com
+"Astor, Inc.",https://www.astor.app/pricing?utm_source=directory,2-10,United States,yc_public_directory_mirror,Astor,astor.app
+F4 Industries,https://f4.dev/,2-10,USA,kaggle_yc_dataset,F4 Industries,f4.dev
+Asendia AI,https://asendia.ai/,2-10,USA,yc_public_directory_mirror,Asendia AI,asendia.ai
+Eden Care,https://www.edencaremedical.com/,11-50,Kenya,yc_public_directory_mirror,Eden Care,edencaremedical.com
+Wardstone Technologies,http://wardstone.us/,2-10,United States,yc_public_directory_mirror,Wardstone Technologies,wardstone.us
+Kinect Technologies,http://trykinect.ai/,2-10,United States,yc_public_directory_mirror,Kinect Technologies,trykinect.ai
+Long Term Stock Exchange,ltse.com,51-200,USA,kaggle_yc_dataset,Long Term Stock Exchange,ltse.com
+OctaveWealth,octavewealth.com,2-10,USA,kaggle_yc_dataset,OctaveWealth,octavewealth.com
+ProSights,https://prosights.co/,11-50,USA,yc_public_directory_mirror,ProSights,prosights.co
+Fewture9Nine,fewture9nine.com,11-50,Pakistan,scaliq_directory,Fewture9Nine,fewture9nine.com
+CircuitHub Inc.,https://circuithub.com/,51-200,United Kingdom,yc_public_directory_mirror,CircuitHub,circuithub.com
+superglue,https://superglue.ai/,2-10,Germany,yc_public_directory_mirror,superglue,superglue.ai
+MusicArena,https://musicarena.io/,2-10,USA,kaggle_yc_dataset,MusicArena,musicarena.io
+Most Robotic,https://mostrobotic.com/,2-10,USA,kaggle_yc_dataset,Most Robotic,mostrobotic.com
+Voiceops,HTTPS://VOICEOPS.COM/,2-10,USA,yc_public_directory_mirror,Voiceops,voiceops.com
+GBatteries Inc.,HTTPS://WWW.GBATTERIES.COM/,11-50,Canada,yc_public_directory_mirror,GBatteries,gbatteries.com
+"MedPiper Technologies, Inc",medpiper.com,51-200,India,kaggle_yc_dataset,MedPiper Technologies,medpiper.com
+Scalemill Sales Outsourcing,WWW.SCALEMILL.COM/services,51-200,Pakistan,scaliq_directory,Scalemill Sales Outsourcing,scalemill.com
+"nsave, Inc.",https://www.nsave.com/pricing?utm_source=directory,11-50,UK,yc_public_directory_mirror,nsave,nsave.com
+Ticket Wallet,https://www.ticketwallet.com,11-50,USA,kaggle_yc_dataset,Ticket Wallet,ticketwallet.com
+Solidroad,HTTPS://SOLIDROAD.COM/,2-10,USA,yc_public_directory_mirror,Solidroad,solidroad.com
+Advanced Client,https://www.advancedclient.io/,11-50,United States,outbound_agency_directory,Advanced Client,advancedclient.io
+Stamp,https://www.stampmail.ai/,2-10,USA,yc_public_directory_mirror,Stamp,stampmail.ai
+Slite,https://slite.com/,11-50,Germany,kaggle_yc_dataset,Slite,slite.com
+Elayne,https://www.elayne.com/,2-10,USA,yc_public_directory_mirror,Elayne,elayne.com
+Endla,endla.com,2-10,Australia,kaggle_yc_dataset,Endla,endla.com
+MOVEdot,https://www.movedot.ai/,2-10,USA,kaggle_yc_dataset,MOVEdot,movedot.ai
+RevGenius,https://www.revgenius.com/,11-50,United States,outbound_agency_directory,RevGenius,revgenius.com
+Cartpole,https://cartpole.com,2-10,USA,yc_public_directory_mirror,Cartpole,cartpole.com
+Pave Inc.,HTTPS://WWW.PAVEAI.COM/,2-10,Canada,yc_public_directory_mirror,Pave,paveai.com
+LaunchFlow,https://www.launchflow.com/,2-10,USA,yc_public_directory_mirror,LaunchFlow,launchflow.com
+Infisical,https://infisical.com,51-200,USA,kaggle_yc_dataset,Infisical,infisical.com
+Release,https://release.com/,11-50,USA,yc_public_directory_mirror,Release,release.com
+Hellometer,https://hellometer.io/,2-10,USA,kaggle_yc_dataset,Hellometer,hellometer.io
+Letterbook,https://www.letterbook.ai/,2-10,USA,yc_public_directory_mirror,Letterbook,letterbook.ai
+Archbee,https://www.archbee.com,11-50,Romania,kaggle_yc_dataset,Archbee,archbee.com
+Array Labs,https://www.arraylabs.io/,11-50,USA,yc_public_directory_mirror,Array Labs,arraylabs.io
+DevCommX,https://www.devcommx.com/b2b-lead-generation/lahore,11-50,Pakistan,agency_web_directory,DevCommX,devcommx.com
+PickTrace,http://picktrace.com/company,51-200,USA,yc_public_directory_mirror,PickTrace,picktrace.com
+Arbisoft,https://arbisoft.com/,501-1000,Pakistan,pseb_public_directory,Arbisoft,arbisoft.com
+Poll Everywhere,https://www.polleverywhere.com,51-200,USA,yc_public_directory_mirror,Poll Everywhere,polleverywhere.com
+Skyhook,skyhook.io,2-10,Israel,kaggle_yc_dataset,Skyhook,skyhook.io
+Almanac,https://usealmanac.com,2-10,USA,kaggle_yc_dataset,Almanac,usealmanac.com
+Workflow86,https://www.workflow86.com,2-10,USA,kaggle_yc_dataset,Workflow86,workflow86.com
+Hatchways,http://www.hatchways.io,2-10,Canada,kaggle_yc_dataset,Hatchways,hatchways.io
+BITSTACK,BITSTACK-APP.COM,11-50,France,yc_public_directory_mirror,BITSTACK,bitstack-app.com
+Sixtyfour,https://www.sixtyfour.ai/,11-50,USA,yc_public_directory_mirror,Sixtyfour,sixtyfour.ai
+Risotto,https://tryrisotto.com/,2-10,USA,yc_public_directory_mirror,Risotto,tryrisotto.com
+Menza,https://menza.ai/,2-10,United Kingdom,yc_public_directory_mirror,Menza,menza.ai
+Blueprints GTM,https://www.blueprintgtm.com/,2-10,United States,outbound_agency_directory,Blueprints GTM,blueprintgtm.com
+Velt,https://velt.dev/,11-50,USA,yc_public_directory_mirror,Velt,velt.dev
+Bluejay,https://getbluejay.ai/,2-10,USA,yc_public_directory_mirror,Bluejay,getbluejay.ai
+Kanda,https://www.getkanda.com/,2-10,United Kingdom,yc_public_directory_mirror,Kanda,getkanda.com
+Imgix Inc.,https://www.imgix.com/,11-50,USA,yc_public_directory_mirror,Imgix,imgix.com
+ThereCraft,www.therecraft.com,2-10,USA,kaggle_yc_dataset,ThereCraft,therecraft.com
+Neuron Industries,neuronindustries.com,2-10,USA,kaggle_yc_dataset,Neuron Industries,neuronindustries.com
+Velontra,https://www.velontra.com/,2-10,USA,yc_public_directory_mirror,Velontra,velontra.com
+SalesRoads,https://salesroads.com/,51-200,United States,outbound_agency_directory,SalesRoads,salesroads.com
+Huscarl,HTTPS://WWW.HUSCARL.IO/,2-10,USA,yc_public_directory_mirror,Huscarl,huscarl.io
+Cajal,https://caj.al/,2-10,USA,yc_public_directory_mirror,Cajal,caj.al
+Observe.AI,https://observe.ai,201-500,USA,yc_public_directory_mirror,Observe.AI,observe.ai
+Tech Drop Private Limited,https://techdrop.pk/,11-50,Pakistan,clutch_manifest_pk,Tech Drop Private,techdrop.pk
+Praxim,praxim.ai,2-10,USA,kaggle_yc_dataset,Praxim,praxim.ai
+Elyra,https://www.elyrasystems.com/,2-10,Sweden,kaggle_yc_dataset,Elyra,elyrasystems.com
+UBITS,http://ubits.com,201-500,Mexico,yc_public_directory_mirror,UBITS,ubits.com
+Runway,https://runway.team,11-50,USA,kaggle_yc_dataset,Runway,runway.team
+HiOperator Inc.,HTTP://WWW.HIOPERATOR.COM/,51-200,USA,yc_public_directory_mirror,HiOperator,hioperator.com
+Razorpay,https://razorpay.com,1001-5000,India,kaggle_yc_dataset,Razorpay,razorpay.com
+"Estimote, Inc.",www.estimote.com,11-50,Poland,kaggle_yc_dataset,Estimote,estimote.com
+Aqua,HTTPS://WWW.INVESTWITHAQUA.COM/,11-50,USA,yc_public_directory_mirror,Aqua,investwithaqua.com
+Caretta,https://www.caretta.so,2-10,USA,kaggle_yc_dataset,Caretta,caretta.so
+MailTime,HTTP://MAILTIME.COM/,11-50,Hong Kong,yc_public_directory_mirror,MailTime,mailtime.com
+Growth Engine X LLC,growthenginex.com,11-50,USA,scaliq_directory,Growth Engine X,growthenginex.com
+NOLOCO,NOLOCO.IO,11-50,Ireland,yc_public_directory_mirror,NOLOCO,noloco.io
+AIVideo.com,https://aivideo.com,11-50,USA,kaggle_yc_dataset,AIVideo.com,aivideo.com
+PoloTab,https://polotab.com,11-50,Mexico,yc_public_directory_mirror,PoloTab,polotab.com
+Dataleap,https://dataleap.ai/,2-10,USA,yc_public_directory_mirror,Dataleap,dataleap.ai
+Acme Cloud Tech,ACMECLOUD.COM,51-200,USA,scaliq_directory,Acme Cloud Tech,acmecloud.com
+Tiptap,https://tiptap.dev/,11-50,Germany,kaggle_yc_dataset,Tiptap,tiptap.dev
+Feldy,https://feldy.ai,2-10,USA,kaggle_yc_dataset,Feldy,feldy.ai
+Almond,https://almond.bot/,2-10,USA,yc_public_directory_mirror,Almond,almond.bot
+Hypercore,https://www.hypercore.ai/,2-10,Israel,kaggle_yc_dataset,Hypercore,hypercore.ai
+Axis,axisanalysis.com,2-10,USA,kaggle_yc_dataset,Axis,axisanalysis.com
+Axle,https://axle.insure,11-50,USA,kaggle_yc_dataset,Axle,axle.insure
+Comfy Deploy,https://comfydeploy.com,2-10,USA,yc_public_directory_mirror,Comfy Deploy,comfydeploy.com
+Mochatrade Inc.,https://www.mochatrade.com/,2-10,USA,yc_public_directory_mirror,Mochatrade,mochatrade.com
+Swipe Technologies,https://getswipe.com,11-50,United Kingdom,yc_public_directory_mirror,Swipe Technologies,getswipe.com
+Leadbay,leadbay.ai,2-10,USA,kaggle_yc_dataset,Leadbay,leadbay.ai
+Bronco AI,bronco.ai,2-10,USA,kaggle_yc_dataset,Bronco AI,bronco.ai
+Frontal (formerly ColdIQ),https://frontal.io/,11-50,Switzerland,outbound_agency_directory,Frontal (formerly ColdIQ),frontal.io
+Systems Ltd,systemsltd.com.pk,5001-10000,Pakistan,techbehemoths_pk,Systems,systemsltd.com.pk
+Atlog,https://atlog.ai,2-10,USA,kaggle_yc_dataset,Atlog,atlog.ai
+Landed,https://www.gotlanded.com,11-50,USA,kaggle_yc_dataset,Landed,gotlanded.com
+Nano Technologies,HTTP://WWW.VUIAPP.VN/,11-50,Vietnam,yc_public_directory_mirror,Nano Technologies,vuiapp.vn
+Quo (fka OpenPhone),https://www.quo.com,51-200,USA,yc_public_directory_mirror,Quo (fka OpenPhone),quo.com
+Jerry,https://jerry.ai/,201-500,USA,yc_public_directory_mirror,Jerry,jerry.ai
+Nuvocargo,nuvocargo.com,51-200,USA,kaggle_yc_dataset,Nuvocargo,nuvocargo.com
+Apollo.io,https://www.apollo.io/,501-1000,USA,yc_public_directory_mirror,Apollo.io,apollo.io
+Radical Inc.,https://www.radicalaero.com/,2-10,USA,yc_public_directory_mirror,Radical,radicalaero.com
+truthsystems,truthsystems.ai,2-10,USA,kaggle_yc_dataset,truthsystems,truthsystems.ai
+Talent Trellis Inc.,https://talenttrellis.io/,11-50,Pakistan,clutch_manifest_pk,Talent Trellis,talenttrellis.io
+Hudu,https://hudu.com,11-50,USA,kaggle_yc_dataset,Hudu,hudu.com
+Corgea,www.corgea.com,2-10,USA,kaggle_yc_dataset,Corgea,corgea.com
+Enlimited,https://enlimited.com/,11-50,Pakistan,clutch_manifest_pk,Enlimited,enlimited.com
+Extend,https://www.extend.ai/,11-50,USA,kaggle_yc_dataset,Extend,extend.ai
+Alga Biosciences,https://www.alga.bio/,2-10,USA,kaggle_yc_dataset,Alga Biosciences,alga.bio
+DimOrder,https://dimorder.com,51-200,Hong Kong,yc_public_directory_mirror,DimOrder,dimorder.com
+MODERNBANC,MODERNBANC.COM,2-10,UK,yc_public_directory_mirror,MODERNBANC,modernbanc.com
+Vela Inc.,HTTPS://TRYVELA.AI/,11-50,USA,yc_public_directory_mirror,Vela,tryvela.ai
+Cercli,https://www.cercli.com,11-50,United Arab Emirates,yc_public_directory_mirror,Cercli,cercli.com
+Vanta,https://vanta.com/,501-1000,USA,yc_public_directory_mirror,Vanta,vanta.com
+Magma,magmahq.ai,2-10,USA,kaggle_yc_dataset,Magma,magmahq.ai
+FollowUpThen,followupthen.com,2-10,USA,kaggle_yc_dataset,FollowUpThen,followupthen.com
+Marblism,https://marblism.com,2-10,United Kingdom,yc_public_directory_mirror,Marblism,marblism.com
+Devsinc,https://www.devsinc.com/,1001-5000,Pakistan,pseb_public_directory,Devsinc,devsinc.com
+Treinta,https://www.treinta.co,51-200,Colombia,kaggle_yc_dataset,Treinta,treinta.co
+GenFlows,https://www.genflows.io/,2-10,United Kingdom,outbound_agency_directory,GenFlows,genflows.io
+NALA,nala.com,51-200,USA,kaggle_yc_dataset,NALA,nala.com
+Farel,https://farel.io,2-10,USA,yc_public_directory_mirror,Farel,farel.io
+Claygenius,https://www.claygenius.io/,2-10,Pakistan,scaliq_directory,Claygenius,claygenius.io
+Grep AI,HTTPS://GREP.AI/,2-10,USA,yc_public_directory_mirror,Grep AI,grep.ai
+Ajaib,https://www.ajaib.co.id/,201-500,Indonesia,kaggle_yc_dataset,Ajaib,ajaib.co.id
+"Synapse Semiconductor, Inc.",https://www.synapsesemi.org/pricing?utm_source=directory,2-10,United States,yc_public_directory_mirror,Synapse Semiconductor,synapsesemi.org
+Talkable,http://talkable.com,51-200,USA,kaggle_yc_dataset,Talkable,talkable.com
+Hiro Inc.,HTTPS://HIROSECURE.COM/,2-10,USA,yc_public_directory_mirror,Hiro,hirosecure.com
+Fieldguide,www.fieldguide.com,51-200,USA,kaggle_yc_dataset,Fieldguide,fieldguide.com
+Method Financial,https://methodfi.com,11-50,USA,yc_public_directory_mirror,Method Financial,methodfi.com
+OS3,https://os3robotics.com/,2-10,USA,kaggle_yc_dataset,OS3,os3robotics.com
+i2c Inc.,https://www.i2cinc.com/,1001-5000,United States,pseb_public_directory,i2c,i2cinc.com
+Munzai Solutions,https://www.munzaisolutions.com/,11-50,Pakistan,scaliq_directory,Munzai Solutions,munzaisolutions.com
+Refactor,https://refactor.co,2-10,USA,kaggle_yc_dataset,Refactor,refactor.co
+Stacker,https://stackerhq.com,2-10,United Kingdom,kaggle_yc_dataset,Stacker,stackerhq.com
+TovenAI,HTTPS://TOVEN.AI/,2-10,USA,yc_public_directory_mirror,TovenAI,toven.ai
+"Veryfi, Inc.",https://www.veryfi.com/,51-200,USA,kaggle_yc_dataset,Veryfi,veryfi.com
+AxionOrbital Space,HTTPS://AXIONORBITAL.SPACE/,2-10,USA,yc_public_directory_mirror,AxionOrbital Space,axionorbital.space
+Zaymo,zaymo.com,11-50,USA,kaggle_yc_dataset,Zaymo,zaymo.com
+Champ Inc.,https://trychamp.co/,2-10,USA,yc_public_directory_mirror,Champ,trychamp.co
+Mesh,mesh.ai,11-50,USA,kaggle_yc_dataset,Mesh,mesh.ai
+PoplarML,http://poplarml.com,2-10,USA,yc_public_directory_mirror,PoplarML,poplarml.com
+Avo,https://www.avo.app/,2-10,Iceland,kaggle_yc_dataset,Avo,avo.app
+Martal Group,https://martal.ca/,51-200,Canada,outbound_agency_directory,Martal Group,martal.ca
+Contour Software,https://contour-software.com/,1001-5000,Pakistan,pseb_public_directory,Contour Software,contour-software.com
+"TyltGO, Inc.",https://www.tyltgo.com/pricing?utm_source=directory,11-50,Canada,yc_public_directory_mirror,TyltGO,tyltgo.com
+TRG Pakistan,https://www.trgpakistan.com.pk/,1001-5000,Pakistan,pseb_public_directory,TRG Pakistan,trgpakistan.com.pk
+Monet,https://monet.com.co/,11-50,USA,kaggle_yc_dataset,Monet,monet.com.co
+Canary,https://www.runcanary.ai,2-10,USA,kaggle_yc_dataset,Canary,runcanary.ai
+Kilvin,https://www.kilvin.ai,2-10,USA,yc_public_directory_mirror,Kilvin,kilvin.ai
+RocketSDR,https://rocketsdr.ai,11-50,India,yc_public_directory_mirror,RocketSDR,rocketsdr.ai
+CodeAnt AI,codeant.ai,11-50,USA,kaggle_yc_dataset,CodeAnt AI,codeant.ai
+Wave,HTTPS://WAVE.COM/,1001-5000,Senegal,yc_public_directory_mirror,Wave,wave.com
+AiSDR,aisdr.com,11-50,USA,kaggle_yc_dataset,AiSDR,aisdr.com
+Thornwick,https://thornwick.com/,2-10,USA,kaggle_yc_dataset,Thornwick,thornwick.com
+Copia,gocopia.com,11-50,USA,kaggle_yc_dataset,Copia,gocopia.com
+Maya Labs Inc.,https://mayalabs.io/,2-10,India,yc_public_directory_mirror,Maya Labs,mayalabs.io
+Jasper.ai,jasper.ai,51-200,USA,kaggle_yc_dataset,Jasper.ai,jasper.ai
+Nova Credit,novacredit.com,51-200,USA,kaggle_yc_dataset,Nova Credit,novacredit.com
+Toku,https://trytoku.com/,51-200,Chile,yc_public_directory_mirror,Toku,trytoku.com
+Understory Agency,https://www.understoryagency.com/,11-50,United States,outbound_agency_directory,Understory Agency,understoryagency.com
+Koshex,www.koshex.com,11-50,India,kaggle_yc_dataset,Koshex,koshex.com
+DeepAware AI (Robotics Center of Silicon Valley),www.roboticscenter.ai,2-10,USA,kaggle_yc_dataset,DeepAware AI (Robotics Center of Silicon Valley),roboticscenter.ai
+CircuitLab,circuitlab.com,2-10,USA,kaggle_yc_dataset,CircuitLab,circuitlab.com
+REV1,www.rev1.so,2-10,USA,kaggle_yc_dataset,REV1,rev1.so
+Zephyr Fusion,zephyrfusion.com,2-10,USA,kaggle_yc_dataset,Zephyr Fusion,zephyrfusion.com
+Minded,https://www.minded.com/,2-10,Israel,yc_public_directory_mirror,Minded,minded.com
+Wasmer,https://wasmer.io,11-50,USA,yc_public_directory_mirror,Wasmer,wasmer.io
+BuyPower,http://www.buypower.ng/,51-200,Nigeria,yc_public_directory_mirror,BuyPower,buypower.ng
+Flux,http://paywithflux.com,2-10,Mexico,kaggle_yc_dataset,Flux,paywithflux.com
+"BukuWarung, Inc.",https://www.bukuwarung.com/app/pricing?utm_source=directory,201-500,Indonesia,yc_public_directory_mirror,BukuWarung,bukuwarung.com
+COTERA,COTERA.CO,2-10,United States,yc_public_directory_mirror,COTERA,cotera.co
+Reclaim Protocol,www.reclaimprotocol.org,11-50,India,kaggle_yc_dataset,Reclaim Protocol,reclaimprotocol.org
+Biznatron,http://biznatron.com/,11-50,Pakistan,clutch_manifest_pk,Biznatron,biznatron.com
+zeroheight Inc.,https://zeroheight.com/,51-200,United Kingdom,yc_public_directory_mirror,zeroheight,zeroheight.com
+DigitalNexxt Services,https://digitalnexxt.com/,11-50,Pakistan,clutch_manifest_pk,DigitalNexxt Services,digitalnexxt.com
+Theneo,HTTPS://THENEO.IO/,11-50,Georgia,yc_public_directory_mirror,Theneo,theneo.io
+Vorticity,http://vorticity.xyz/,2-10,USA,yc_public_directory_mirror,Vorticity,vorticity.xyz
+Volaren,https://www.volaren.ai,2-10,USA,kaggle_yc_dataset,Volaren,volaren.ai
+Lore Inc.,https://joinlore.app/,2-10,USA,yc_public_directory_mirror,Lore,joinlore.app
+expand.ai,https://expand.ai/,2-10,USA,yc_public_directory_mirror,expand.ai,expand.ai
+Turion Space,https://turionspace.com/,11-50,USA,kaggle_yc_dataset,Turion Space,turionspace.com
+Intuned,https://intunedhq.com/,11-50,USA,yc_public_directory_mirror,Intuned,intunedhq.com
+Ambient.ai,https://ambient.ai,51-200,USA,kaggle_yc_dataset,Ambient.ai,ambient.ai
+refine,HTTPS://REFINE.DEV/,2-10,USA,yc_public_directory_mirror,refine,refine.dev
+Rivia.AI,https://rivia.ai,2-10,India,kaggle_yc_dataset,Rivia.AI,rivia.ai
+GetAccept,https://www.getaccept.com,51-200,Sweden,kaggle_yc_dataset,GetAccept,getaccept.com
+Leadium,https://www.leadium.com/,51-200,United States,outbound_agency_directory,Leadium,leadium.com
+Bankjoy,http://bankjoy.com,51-200,USA,yc_public_directory_mirror,Bankjoy,bankjoy.com
+Plivo,plivo.com,201-500,USA,kaggle_yc_dataset,Plivo,plivo.com
+COLD CALL CREW (SMC-PRIVATE) LIMITED,https://coldcallcrew.com/,11-50,Pakistan,scaliq_directory,COLD CALL CREW (SMC-PRIVATE),coldcallcrew.com
+Leena AI,https://www.leena.ai,201-500,USA,kaggle_yc_dataset,Leena AI,leena.ai
+Malloc Inc,https://mallocprivacy.com/,2-10,Cyprus,yc_public_directory_mirror,Malloc,mallocprivacy.com
+Pivot Robotics,pivotrobotics.com,2-10,USA,kaggle_yc_dataset,Pivot Robotics,pivotrobotics.com
+Carma,https://www.joincarma.com/,2-10,USA,kaggle_yc_dataset,Carma,joincarma.com
+Beta Analytics,www.betaanalytics.co.uk,11-50,UK,clutch_manifest_pk,Beta Analytics,betaanalytics.co.uk
+Lightscreen AI,https://lightscreen.ai,2-10,USA,kaggle_yc_dataset,Lightscreen AI,lightscreen.ai
+Dench.com,https://dench.com,2-10,USA,kaggle_yc_dataset,Dench.com,dench.com
+CIENCE Technologies,https://www.cience.com/,501-1000,United States,outbound_agency_directory,CIENCE Technologies,cience.com
+DeepMark,https://www.deepmark.me,2-10,USA,kaggle_yc_dataset,DeepMark,deepmark.me
+Domu Technology Inc.,https://www.domu.ai/,11-50,USA,yc_public_directory_mirror,Domu Technology,domu.ai
+Tennr,www.tennr.com,201-500,USA,kaggle_yc_dataset,Tennr,tennr.com
+MovingLake,movinglake.com,2-10,Mexico,kaggle_yc_dataset,MovingLake,movinglake.com
+Proxis Technologies,http://proxis.ai/,2-10,United States,yc_public_directory_mirror,Proxis Technologies,proxis.ai
+Hey Telo,www.heytelo.com,2-10,Germany,kaggle_yc_dataset,Hey Telo,heytelo.com
+Tkxel,https://www.tkxel.com/,501-1000,Pakistan,pseb_public_directory,Tkxel,tkxel.com
+Uplane,https://uplane.com,11-50,USA,yc_public_directory_mirror,Uplane,uplane.com
+Trailing Slash Co.,https://trailingslash.co///,1-10,Australia,synthetic,Trailing Slash Co.,trailingslash.co
+ClickPe Inc.,HTTPS://CLICKPE.AI/,2-10,India,yc_public_directory_mirror,ClickPe,clickpe.ai
+Onshore,https://onshore.com,51-200,USA,yc_public_directory_mirror,Onshore,onshore.com
+Subdomain AI Labs,https://app.docs.subdomainai.ai/v2/auth?token=123,11-50,Germany,synthetic,Subdomain AI Labs,subdomainai.ai
+Aesthetic,https://www.aesthetic.com,2-10,USA,kaggle_yc_dataset,Aesthetic,aesthetic.com
+ChatPandas,https://www.chatpandas.com/,11-50,Pakistan,clutch_manifest_pk,ChatPandas,chatpandas.com
+EventLoop,https://eventloop.pk/,11-50,Pakistan,techbehemoths_pk,EventLoop,eventloop.pk
+Kestrel AI,https://usekestrel.ai/,2-10,USA,kaggle_yc_dataset,Kestrel AI,usekestrel.ai
+Cofia,https://cofia.ai,2-10,USA,yc_public_directory_mirror,Cofia,cofia.ai
+Super Powers Mobility (SPM),www.spm.us,2-10,USA,kaggle_yc_dataset,Super Powers Mobility (SPM),spm.us
+Swadesh,swadesh.co,2-10,USA,kaggle_yc_dataset,Swadesh,swadesh.co
+Latted,https://latted.com,2-10,USA,kaggle_yc_dataset,Latted,latted.com
+SalesCaptain,https://www.salescaptain.io/,11-50,Netherlands,outbound_agency_directory,SalesCaptain,salescaptain.io
+Draftwise,https://www.draftwise.com/,11-50,USA,yc_public_directory_mirror,Draftwise,draftwise.com
+Ontora,https://ontora.com,2-10,Germany,yc_public_directory_mirror,Ontora,ontora.com
+NetSol Technologies Pakistan,https://www.netsoltech.com.pk/about?ref=dir,1001-5000,Pakistan,pseb_public_directory,NetSol Technologies Pakistan,netsoltech.com.pk
+Asimov,https://tryasimov.ai/,2-10,USA,kaggle_yc_dataset,Asimov,tryasimov.ai
+Infiuss Health,infiuss.com,2-10,USA,kaggle_yc_dataset,Infiuss Health,infiuss.com
+Feyn,https://www.usefeyn.com,2-10,USA,kaggle_yc_dataset,Feyn,usefeyn.com
+Modern Sales Pros,https://modernsalespros.com/,11-50,United States,outbound_agency_directory,Modern Sales Pros,modernsalespros.com
+Zomma Inc.,HTTPS://ZOMMALABS.COM/,2-10,USA,yc_public_directory_mirror,Zomma,zommalabs.com
+Emailio,www.emailio.com,2-10,Remote,kaggle_yc_dataset,Emailio,emailio.com
+Hickory & Company,hickory.co,2-10,USA,kaggle_yc_dataset,Hickory & Company,hickory.co
+"Dialtone, Inc.",https://www.usedialtone.com/pricing?utm_source=directory,2-10,United States,yc_public_directory_mirror,Dialtone,usedialtone.com
+Jet Admin,https://jetadmin.io,2-10,Germany,kaggle_yc_dataset,Jet Admin,jetadmin.io
+Artos,www.artosai.com,2-10,USA,kaggle_yc_dataset,Artos,artosai.com
+Vimcal,http://www.vimcal.com,2-10,USA,yc_public_directory_mirror,Vimcal,vimcal.com
+Collar,www.usecollarai.com,2-10,USA,kaggle_yc_dataset,Collar,usecollarai.com
+Ignition Benefits,HTTPS://WWW.IGNITIONBENEFITS.COM/,11-50,USA,yc_public_directory_mirror,Ignition Benefits,ignitionbenefits.com
+Clean,tryclean.ai,2-10,USA,kaggle_yc_dataset,Clean,tryclean.ai
+Touchstone Communications,https://touchstonebpo.com/,1001-5000,Pakistan,clutch_manifest_pk,Touchstone Communications,touchstonebpo.com
+Didit,HTTPS://DIDIT.ME/,11-50,Spain,yc_public_directory_mirror,Didit,didit.me
+Workers IO,workers.io,2-10,USA,kaggle_yc_dataset,Workers IO,workers.io
+Versive,https://www.getversive.com/,2-10,USA,kaggle_yc_dataset,Versive,getversive.com
+Outbound Kitchen,https://outboundkitchen.co/,2-10,France,outbound_agency_directory,Outbound Kitchen,outboundkitchen.co
+CollabGenerate,https://collabgenerate.com/,2-10,Pakistan,techbehemoths_pk,CollabGenerate,collabgenerate.com
+CNEX AI,https://cnexai.com/,2-10,Pakistan,techbehemoths_pk,CNEX AI,cnexai.com
+Datacurve,https://datacurve.ai/,11-50,USA,yc_public_directory_mirror,Datacurve,datacurve.ai
+OneGTM,https://www.getaob.com/,2-10,United States,outbound_agency_directory,OneGTM,getaob.com
+Conduit,http://helloconduit.com,11-50,USA,kaggle_yc_dataset,Conduit,helloconduit.com
+ROGER,thanksroger.com,2-10,USA,kaggle_yc_dataset,ROGER,thanksroger.com
+Basalt,basalt.space,2-10,USA,kaggle_yc_dataset,Basalt,basalt.space
+Premier BPO,https://www.premierbpo.com/,251-500,Pakistan,clutch_manifest_pk,Premier BPO,premierbpo.com
+UPPERCASE FINTECH CORP,HTTPS://WWW.UPPERCASEFINTECH.IO/DEMO/,51-200,United States,synthetic,UPPERCASE FINTECH,uppercasefintech.io

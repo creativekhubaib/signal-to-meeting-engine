@@ -1,0 +1,11 @@
+name,website,size,country,source,reason,name_clean,domain
+,,,,,blank_row,,
+Flutterwave,,201-500,Nigeria,kaggle_yc_dataset,missing_domain,Flutterwave,
+Aviern,,2-10,USA,kaggle_yc_dataset,missing_domain,Aviern,
+cloud humans,,11-50,USA,kaggle_yc_dataset,missing_domain,cloud humans,
+No Website Agency,,,Pakistan,scaliq_directory,missing_domain,No Website Agency,
+Sunlight,,2-10,USA,kaggle_yc_dataset,missing_domain,Sunlight,
+Wato,,2-10,USA,kaggle_yc_dataset,missing_domain,Wato,
+Delta Systems,,201-500,Canada,scaliq_directory,missing_domain,Delta Systems,
+Dialtone,,2-10,USA,kaggle_yc_dataset,missing_domain,Dialtone,
+Invalid Local Corp,invalidcompany,1-10,United States,synthetic,invalid_domain,Invalid Local,
