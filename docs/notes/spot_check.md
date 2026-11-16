@@ -1,0 +1,8 @@
+# Stage 1 Spot-Check Findings
+
+- Inspected 15+ rows in `data/processed/cleaned.csv` covering `www.`, multi-level subdomains (`app.docs.subdomainai.ai`), `.co.uk` / `.com.pk` public suffixes, uppercase URLs, and deep URL paths/trailing slashes; all normalized accurately to registrable root domains.
+- Verified trailing legal suffix stripping (`Talent Trellis Inc.` -> `Talent Trellis`, `i2c Inc.` -> `i2c`, `UPPERCASE FINTECH CORP` -> `UPPERCASE FINTECH`) while preserving compound names like `Tech Drop Private Limited` -> `Tech Drop Private`.
+- Reviewed all 10 rows in `data/processed/flagged.csv`: 1 `blank_row`, 8 `missing_domain`, and 1 `invalid_domain` (`invalidcompany`). Confirmed zero false positives (no valid companies dropped).
+- Reviewed all 31 rows in `data/processed/dropped_duplicates.csv`: confirmed 22 cross-source duplicates between `kaggle_yc_dataset` and `yc_public_directory_mirror`, 8 across agency directories (`Belkins`, `Scalemill`, `Growth Engine X`, `Understory`, `Munzai Solutions`, `Beta Analytics`, `Systems Limited`), and 1 synthetic subdomain duplicate (`blog.acmecloud.com`).
+- Confirmed keep-rule behavior: rows with the highest non-empty field count survived; where duplicate rows tied on completeness (4/4 fields), the earliest row in file order was retained.
+- Noted known edge case: `ColdIQ` (`coldiq.com`) and `Frontal (formerly ColdIQ)` (`frontal.io`) remain separate records because domain-level deduplication does not merge rebranded multi-domain entities.
