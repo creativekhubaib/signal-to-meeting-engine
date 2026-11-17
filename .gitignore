@@ -1,4 +1,15 @@
+# secrets and local settings
+.env
+*.key
+
+# python
 .venv/
 __pycache__/
-.env
+*.pyc
 .pytest_cache/
+
+# generated output (re-create with the CLI)
+data/out/
+data/cleaned_scored.csv
+data/flagged.csv
+data/run_summary.json
