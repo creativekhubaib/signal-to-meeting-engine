@@ -1,115 +1,122 @@
-from pathlib import Path
+"""Stage 1: clean a messy company list.
+
+Rule of this file: flag problems, never silently delete rows.
+"""
+
 import re
+from urllib.parse import urlparse
 import pandas as pd
-import tldextract
 
-# File paths & schema constants
-RAW_PATH = Path("data/raw/companies_raw.csv")
-OUT_DIR = Path("data/processed")
-FIELDS = ["name", "website", "size", "country"]
+# Two-part public suffixes handled by hand. A production tool would use the
+# Public Suffix List (the tldextract library). Limit: unlisted suffixes are wrong.
+MULTI_PART_SUFFIXES = {
+    "co.uk",
+    "org.uk",
+    "ac.uk",
+    "com.pk",
+    "org.pk",
+    "net.pk",
+    "edu.pk",
+    "com.au",
+    "co.in",
+    "co.nz",
+    "com.sg",
+    "co.za",
+    "com.br",
+}
 
-# Offline Public Suffix List extractor (no network calls, deterministic output)
-_extract = tldextract.TLDExtract(suffix_list_urls=())
+LEGAL_SUFFIXES = {
+    "inc",
+    "llc",
+    "ltd",
+    "limited",
+    "corp",
+    "corporation",
+    "co",
+    "gmbh",
+    "plc",
+    "pvt",
+    "llp",
+}
 
-
-def normalize_domain(raw):
-  """Extract the registrable root domain (e.g., 'acme.co.uk') from any messy URL."""
-  text = str(raw or "").strip().lower()
-  if not text or re.search(r"\s", text):
-    return None
-  ext = _extract(text)
-  if not ext.domain or not ext.suffix:
-    return None
-  return f"{ext.domain}.{ext.suffix}"
-
-
-
-_LEGAL_RE = re.compile(
-    r"(?:[\s,]+(?:inc|incorporated|llc|ltd|limited|llp|lp|corp|corporation|gmbh|pvt|plc|pty)\.?)+\s*$",
-    re.IGNORECASE,
+_HOST_RE = re.compile(
+    r"^(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}$"
 )
 
 
-def clean_name(raw):
-  """Collapse internal spaces and strip trailing legal entity suffixes."""
-  name = re.sub(r"\s+", " ", str(raw or "")).strip()
-  stripped = _LEGAL_RE.sub("", name).strip(" ,")
-  return stripped or name
+def is_blank(value):
+  """True for None, NaN and empty or whitespace-only text."""
+  if value is None:
+    return True
+  if isinstance(value, float) and pd.isna(value):
+    return True
+  if value is pd.NA:
+    return True
+  return str(value).strip() == ""
 
 
-def clean_dataframe(df):
-  """Separate blank/invalid rows, normalize fields, and deduplicate by root domain."""
-  df = df.copy()
-  df.columns = [c.strip().lower() for c in df.columns]
-  for col in df.columns:
-    df[col] = df[col].astype(str).str.strip()
+def normalize_domain(value):
+  """Return the root domain, or None when the value is not a usable domain.
 
-  # 1. Isolate completely blank rows first
-  blank_mask = (df == "").all(axis=1)
-  blank = df[blank_mask].assign(reason="blank_row")
-  work = df[~blank_mask].copy()
-
-  # 2. Compute normalized company name and registrable root domain
-  work["name_clean"] = work["name"].apply(clean_name)
-  work["domain"] = work["website"].apply(normalize_domain)
-
-  # 3. Separate missing websites from malformed/invalid domains
-  missing_mask = work["website"] == ""
-  invalid_mask = ~missing_mask & work["domain"].isna()
-  missing = work[missing_mask].assign(reason="missing_domain")
-  invalid = work[invalid_mask].assign(reason="invalid_domain")
-  flagged = pd.concat([blank, missing, invalid])
-
-  # 4. Deduplicate valid candidates (most complete row wins; ties keep earliest)
-  candidates = work[~missing_mask & ~invalid_mask].copy()
-  candidates["_filled"] = (candidates[FIELDS] != "").sum(axis=1)
-  candidates = candidates.sort_values("_filled", ascending=False, kind="stable")
-  dup_mask = candidates.duplicated(subset="domain", keep="first")
-
-  dropped = candidates[dup_mask].assign(reason="duplicate_domain")
-  clean = candidates[~dup_mask].sort_index()
-
-  clean = clean.drop(columns="_filled")
-  dropped = dropped.drop(columns="_filled").sort_index()
-  return clean, flagged, dropped
+  'https://www.blog.Acme.co.uk/about' -> 'acme.co.uk'
+  """
+  if is_blank(value):
+    return None
+  text = str(value).strip().lower()
+  if "://" not in text:
+    text = "http://" + text
+  try:
+    host = urlparse(text).hostname or ""
+  except ValueError:
+    return None
+  host = host.strip(".")
+  if host.startswith("www."):
+    host = host[4:]
+  if host in MULTI_PART_SUFFIXES or not _HOST_RE.match(host):
+    return None
+  labels = host.split(".")
+  if len(labels) >= 3 and ".".join(labels[-2:]) in MULTI_PART_SUFFIXES:
+    return ".".join(labels[-3:])
+  return ".".join(labels[-2:])
 
 
-
-def main():
-  df = pd.read_csv(
-      RAW_PATH,
-      dtype=str,
-      keep_default_na=False,
-      encoding="utf-8-sig",
-      skip_blank_lines=False,
-  )
-  rows_in = len(df)
-  clean, flagged, dropped = clean_dataframe(df)
-
-  OUT_DIR.mkdir(parents=True, exist_ok=True)
-  clean.to_csv(OUT_DIR / "cleaned.csv", index=False, encoding="utf-8")
-  flagged.to_csv(OUT_DIR / "flagged.csv", index=False, encoding="utf-8")
-  dropped.to_csv(
-      OUT_DIR / "dropped_duplicates.csv", index=False, encoding="utf-8"
-  )
-
-  counts = flagged["reason"].value_counts()
-  n_blank = int(counts.get("blank_row", 0))
-  n_missing = int(counts.get("missing_domain", 0))
-  n_invalid = int(counts.get("invalid_domain", 0))
-
-  print(f"Rows in:           {rows_in}")
-  print(f"Blank rows:        {n_blank}")
-  print(f"Missing domain:    {n_missing}")
-  print(f"Invalid domain:    {n_invalid}")
-  print(f"Duplicates:        {len(dropped)}")
-  print(f"Rows out (clean):  {len(clean)}")
-  print(f"Removed overall:   {100 * (rows_in - len(clean)) / rows_in:.1f}%")
-
-  assert rows_in == len(clean) + len(flagged) + len(
-      dropped
-  ), "Row arithmetic does not close!"
+def clean_name(value):
+  """Trim spaces, fix ALL CAPS or lowercase, and strip legal suffixes (Inc, LLC, Ltd)."""
+  if is_blank(value):
+    return ""
+  text = re.sub(r"\s+", " ", str(value)).strip()
+  if text.isupper() or text.islower():
+    text = text.title()
+  words = text.replace(",", " ").split()
+  while len(words) > 1 and words[-1].lower().strip(".") in LEGAL_SUFFIXES:
+    words.pop()
+  return " ".join(words)
 
 
-if __name__ == "__main__":
-  main()
+def clean_companies(df):
+  """Return (cleaned, flagged). Every input row ends up in exactly one of them."""
+  missing = {"name", "website"} - set(df.columns)
+  if missing:
+    raise ValueError(f"Missing required columns: {sorted(missing)}")
+  out = df.copy()
+  out["name_clean"] = out["name"].map(clean_name)
+  out["domain"] = out["website"].map(normalize_domain)
+  seen = set()
+  flags = []
+  for row in out.itertuples():
+    row_flags = []
+    if not row.name_clean:
+      row_flags.append("missing_name")
+    if is_blank(row.website):
+      row_flags.append("missing_domain")
+    elif pd.isna(row.domain):
+      row_flags.append("invalid_domain")
+    elif row.domain in seen:
+      row_flags.append("duplicate_domain")
+    else:
+      seen.add(row.domain)
+    flags.append(";".join(row_flags))
+  out["flag"] = flags
+  cleaned = out[out["flag"] == ""].drop(columns="flag").reset_index(drop=True)
+  flagged = out[out["flag"] != ""].reset_index(drop=True)
+  return cleaned, flagged
