@@ -1,0 +1,22 @@
+{
+  "size": {
+    "ideal_min": 5,
+    "ideal_max": 25,
+    "near_min": 2,
+    "near_max": 30,
+    "points_ideal": 40,
+    "points_near": 20
+  },
+  "country": {
+    "target": ["United States", "United Kingdom", "Canada", "Australia", "Germany"],
+    "points_target": 25,
+    "points_other": 5
+  },
+  "keywords": {
+    "positive": ["lead generation", "outbound", "b2b", "demand generation", "appointment setting", "growth"],
+    "negative": ["b2c", "ecommerce", "retail"],
+    "points_each": 7,
+    "max_points": 35,
+    "penalty_each": 10
+  }
+}
