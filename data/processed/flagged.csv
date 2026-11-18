@@ -1,11 +1,42 @@
-name,website,size,country,source,reason,name_clean,domain
-,,,,,blank_row,,
-Flutterwave,,201-500,Nigeria,kaggle_yc_dataset,missing_domain,Flutterwave,
-Aviern,,2-10,USA,kaggle_yc_dataset,missing_domain,Aviern,
-cloud humans,,11-50,USA,kaggle_yc_dataset,missing_domain,cloud humans,
-No Website Agency,,,Pakistan,scaliq_directory,missing_domain,No Website Agency,
-Sunlight,,2-10,USA,kaggle_yc_dataset,missing_domain,Sunlight,
-Wato,,2-10,USA,kaggle_yc_dataset,missing_domain,Wato,
-Delta Systems,,201-500,Canada,scaliq_directory,missing_domain,Delta Systems,
-Dialtone,,2-10,USA,kaggle_yc_dataset,missing_domain,Dialtone,
-Invalid Local Corp,invalidcompany,1-10,United States,synthetic,invalid_domain,Invalid Local,
+name,website,size,country,source,services,name_clean,domain,flag
+Belkins Inc.,WWW.BELKINS.IO/case-studies?utm=dir,201-500,United States,clutch_manifest_pk,B2B lead generation and outbound,Belkins,belkins.io,duplicate_domain
+,,,,,,,,missing_name;missing_domain
+Flutterwave,,201-500,Nigeria,kaggle_yc_dataset,,Flutterwave,,missing_domain
+Infisical Technologies,http://infisical.com/,51-200,United States,yc_public_directory_mirror,,Infisical Technologies,infisical.com,duplicate_domain
+Aviern,,2-10,USA,kaggle_yc_dataset,,Aviern,,missing_domain
+cloud humans,,11-50,USA,kaggle_yc_dataset,,Cloud Humans,,missing_domain
+No Website Agency,,,Pakistan,scaliq_directory,,No Website Agency,,missing_domain
+Noloco,https://noloco.io,11-50,Ireland,kaggle_yc_dataset,,Noloco,noloco.io,duplicate_domain
+Sunlight,,2-10,USA,kaggle_yc_dataset,,Sunlight,,missing_domain
+"Neuron Industries, Inc.",https://www.neuronindustries.com/pricing?utm_source=directory,2-10,United States,yc_public_directory_mirror,,Neuron Industries,neuronindustries.com,duplicate_domain
+  AIVIDEO.COM  ,AIVIDEO.COM,11-50,United States,yc_public_directory_mirror,,Aivideo.Com,aivideo.com,duplicate_domain
+Growth Engine X,https://www.growthenginex.com/,11-50,United States,outbound_agency_directory,,Growth Engine X,growthenginex.com,duplicate_domain
+Duplicate Subdomain Corp,blog.acmecloud.com/blog/post-1?utm_source=test,51-200,United States,synthetic,,Duplicate Subdomain,acmecloud.com,duplicate_domain
+Scalemill,https://scalemill.com/,51-200,Pakistan,clutch_manifest_pk,,Scalemill,scalemill.com,duplicate_domain
+Wardstone,www.wardstone.us,2-10,USA,kaggle_yc_dataset,,Wardstone,wardstone.us,duplicate_domain
+"  Acme Cloud Technologies, Inc. ",https://www.acmecloud.com/,51-200,United States,outbound_agency_directory,,Acme Cloud Technologies,acmecloud.com,duplicate_domain
+Kinect,https://www.trykinect.ai/,2-10,USA,kaggle_yc_dataset,,Kinect,trykinect.ai,duplicate_domain
+Atlog Technologies,http://atlog.ai/,2-10,United States,yc_public_directory_mirror,,Atlog Technologies,atlog.ai,duplicate_domain
+Wato,,2-10,USA,kaggle_yc_dataset,,Wato,,missing_domain
+Understory,understoryagency.com,11-50,USA,scaliq_directory,,Understory,understoryagency.com,duplicate_domain
+Koshex Technologies,http://koshex.com/,11-50,India,yc_public_directory_mirror,,Koshex Technologies,koshex.com,duplicate_domain
+Delta Systems,,201-500,Canada,scaliq_directory,,Delta Systems,,missing_domain
+Astor,astor.app,2-10,USA,kaggle_yc_dataset,,Astor,astor.app,duplicate_domain
+TyltGO,tyltgo.com,11-50,Canada,kaggle_yc_dataset,,TyltGO,tyltgo.com,duplicate_domain
+Invalid Local Corp,invalidcompany,1-10,United States,synthetic,,Invalid Local,,invalid_domain
+Bitstack,https://www.bitstack-app.com,11-50,France,kaggle_yc_dataset,,Bitstack,bitstack-app.com,duplicate_domain
+ Dialtone ,,2-10,USA,kaggle_yc_dataset,,Dialtone,,missing_domain
+nsave,nsave.com,11-50,United Kingdom,kaggle_yc_dataset,,Nsave,nsave.com,duplicate_domain
+Systems Limited,https://www.systemsltd.com.pk/,5001-10000,Pakistan,pseb_public_directory,,Systems,systemsltd.com.pk,duplicate_domain
+BukuWarung,bukuwarung.com/app,201-500,Indonesia,kaggle_yc_dataset,,BukuWarung,bukuwarung.com,duplicate_domain
+Cotera,https://cotera.co,2-10,USA,kaggle_yc_dataset,,Cotera,cotera.co,duplicate_domain
+  CORGEA  ,CORGEA.COM,2-10,United States,yc_public_directory_mirror,,Corgea,corgea.com,duplicate_domain
+  EXTEND  ,EXTEND.AI,11-50,United States,yc_public_directory_mirror,,Extend,extend.ai,duplicate_domain
+ Proxis ,https://www.proxis.ai/,2-10,USA,kaggle_yc_dataset,,Proxis,proxis.ai,duplicate_domain
+  TALKABLE  ,TALKABLE.COM,51-200,United States,yc_public_directory_mirror,,Talkable,talkable.com,duplicate_domain
+Modernbanc,https://modernbanc.com,2-10,United Kingdom,kaggle_yc_dataset,,Modernbanc,modernbanc.com,duplicate_domain
+Munzai Solutions Inc.,munzaisolutions.com,11-50,Pakistan,clutch_manifest_pk,,Munzai Solutions,munzaisolutions.com,duplicate_domain
+"Leadbay, Inc.",https://www.leadbay.ai/pricing?utm_source=directory,2-10,United States,yc_public_directory_mirror,,Leadbay,leadbay.ai,duplicate_domain
+Stacker Technologies,http://stackerhq.com/,2-10,UK,yc_public_directory_mirror,,Stacker Technologies,stackerhq.com,duplicate_domain
+Beta Analytics Ltd.,http://blog.betaanalytics.co.uk/pricing?ref=nav,11-50,United Kingdom,outbound_agency_directory,,Beta Analytics,betaanalytics.co.uk,duplicate_domain
+Synapse Semiconductor,synapsesemi.org,2-10,USA,kaggle_yc_dataset,,Synapse Semiconductor,synapsesemi.org,duplicate_domain
