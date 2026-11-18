@@ -1,8 +1,22 @@
-# Stage 1 Spot-Check Findings
+# Stage 2 Notes: Backwards Funnel Math
 
-- Inspected 15+ rows in `data/processed/cleaned.csv` covering `www.`, multi-level subdomains (`app.docs.subdomainai.ai`), `.co.uk` / `.com.pk` public suffixes, uppercase URLs, and deep URL paths/trailing slashes; all normalized accurately to registrable root domains.
-- Verified trailing legal suffix stripping (`Talent Trellis Inc.` -> `Talent Trellis`, `i2c Inc.` -> `i2c`, `UPPERCASE FINTECH CORP` -> `UPPERCASE FINTECH`) while preserving compound names like `Tech Drop Private Limited` -> `Tech Drop Private`.
-- Reviewed all 10 rows in `data/processed/flagged.csv`: 1 `blank_row`, 8 `missing_domain`, and 1 `invalid_domain` (`invalidcompany`). Confirmed zero false positives (no valid companies dropped).
-- Reviewed all 31 rows in `data/processed/dropped_duplicates.csv`: confirmed 22 cross-source duplicates between `kaggle_yc_dataset` and `yc_public_directory_mirror`, 8 across agency directories (`Belkins`, `Scalemill`, `Growth Engine X`, `Understory`, `Munzai Solutions`, `Beta Analytics`, `Systems Limited`), and 1 synthetic subdomain duplicate (`blog.acmecloud.com`).
-- Confirmed keep-rule behavior: rows with the highest non-empty field count survived; where duplicate rows tied on completeness (4/4 fields), the earliest row in file order was retained.
-- Noted known edge case: `ColdIQ` (`coldiq.com`) and `Frontal (formerly ColdIQ)` (`frontal.io`) remain separate records because domain-level deduplication does not merge rebranded multi-domain entities.
+## 1. Goal & Starting Assumptions
+- **Monthly Revenue Goal (Month 1):** $600 (to clear the $300 debt and build runway)
+- **Starting Offer Guess (Offer A):** $150 to $200 per project (tested against $300 and $600 below)
+- **Conversion Rate Assumptions** *(to be replaced by my own real numbers after my first 100 sends or 20 conversations)*:
+  - Call-to-Deal Close Rate = 25% (assumption)
+  - Positive-Reply-to-Call Rate = 50% (assumption)
+  - Email-to-Positive-Reply Rate = 2% (assumption)
+
+## 2. Backwards Math by Deal Size (for $600/month)
+
+| Deal Size | Deals Needed | Calls Needed (at 25%) | Positive Replies (at 50%) | Cold Emails Needed (at 2%) |
+| :--- | :---: | :---: | :---: | :---: |
+| $150 (Offer A low) | 4 | 16 | 32 | 1,600 |
+| $200 (Offer A high) | 3 | 12 | 24 | 1,200 |
+| $300 | 2 | 8 | 16 | 800 |
+| $600 | 1 | 4 | 8 | 400 |
+
+## 3. Two Key Takeaways
+1. **What this table tells me to do:** Doubling my offer price from $150 to $300 cuts the required outreach volume in half (from 1,600 emails down to 800), which means pricing a clear, high-value package and using warm/direct pitches beats trying to blast thousands of cold emails from a single new inbox.
+2. **Which rate I need to measure first:** My **positive reply rate** (and reply-to-call rate) on my first 100 targeted messages, since everything downstream depends on whether people actually respond to the hook.
